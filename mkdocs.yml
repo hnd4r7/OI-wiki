@@ -487,8 +487,7 @@ nav:
 
 # Theme
 theme:
-  name: null
-  custom_dir: 'mkdocs-material/material'
+  name: material
   static_templates:
     - 404.html
   language: 'zh'
@@ -531,6 +530,10 @@ extra_javascript:
 
 extra_css:
   - '_static/css/extra.css?v=13'
+
+# Plugins
+plugins:
+  - tags
 
 # Extensions
 markdown_extensions:
