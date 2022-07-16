@@ -8,6 +8,8 @@ mkdocs = "*"
 pymdown-extensions = "*"
 pygments = "*"
 beautifulsoup4 = "*"
+mkdocs-material = "*"
+codehilite = "*"
 
 [dev-packages]
 
